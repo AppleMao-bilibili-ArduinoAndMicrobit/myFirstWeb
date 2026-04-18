@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的留言板</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 留言板</h1>
+        <div class="message-form">
+            <input type="text" id="nameInput" placeholder="你的名字" autocomplete="off">
+            <textarea id="messageInput" rows="3" placeholder="写下你的留言..."></textarea>
+            <button id="submitBtn">发布留言</button>
+        </div>
+        <div id="messagesList" class="messages-list">
+            <p>加载中...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
