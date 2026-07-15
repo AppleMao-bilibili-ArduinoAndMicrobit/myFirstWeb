@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的第一个网页</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ + Web 混合应用</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🚀 Hello, World!</h1>
-  <p id="message">点击下方按钮试试</p>
-  <button id="myButton">点我</button>
+    <h1>🚀 C++ 与 Web 联动</h1>
+    <p>输入一个数字，让后端 C++ 程序计算它的平方：</p>
+    
+    <input type="number" id="numInput" value="8" step="1">
+    <button id="callCppBtn">调用 C++ 计算</button>
+    
+    <div id="resultArea">
+        <p>计算结果：<span id="resultText">等待中...</span></p>
+    </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
